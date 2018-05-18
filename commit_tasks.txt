@@ -1,0 +1,26 @@
+[] Build DB schema
+[] Fill out initial data set
+[] Test
+[] database build script
+[] connection.js builds connection to db
+[] connection.js exports db connection
+[] orm.js pseudocode + import db connection
+[] orm.selectAll() + unit test code
+[] orm.insertOne() + unit test code
+[] orm.updateOne() + unit test code
+[] orm.js exports orm object
+[] burger.js pseudocode + import orm object
+[] burger calls orm.selectAll() + unit test code
+[] burger calls orm.insertOne() + unit test code
+[] burger calls orm.updateOne() + unit test code
+[] burger.js exports burger object
+[] burgers_controller.js` psuedocode + import Express and burger.js`
+[] burgers_controller provides routes for the app
+[] burger_controller.js exports the `router`.
+[] *** handlebars commit tasks are tbd ***
+	[] Enables user to submits a burger's name
+	[] After entry, displays the burger on the left side of the page -- the waiting area
+	[] Each burger in the waiting area has a `Devour it!` button.
+	[] A burger will move to the right side of the page when the user clicks button.
+	[] App store every burger in database, whether devoured or not
+	[] UI tests wherever appropriate

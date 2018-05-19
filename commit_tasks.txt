@@ -2,6 +2,7 @@
 [] Fill out initial data set
 [] Test
 [] database build script
+[] Update README with db installation instructions
 [] connection.js builds connection to db
 [] connection.js exports db connection
 [] orm.js pseudocode + import db connection
@@ -17,6 +18,7 @@
 [] burgers_controller.js` psuedocode + import Express and burger.js`
 [] burgers_controller provides routes for the app
 [] burger_controller.js exports the `router`.
+[] Update README with node module installation instructions
 [] *** handlebars commit tasks are tbd ***
 	[] Enables user to submits a burger's name
 	[] After entry, displays the burger on the left side of the page -- the waiting area

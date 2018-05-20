@@ -3,8 +3,8 @@
 [x] Test
 [x] database build script
 [x] Update README with db installation instructions
-[] connection.js builds connection to db
-[] connection.js exports db connection
+[x] connection.js builds connection to db
+[x] connection.js exports db connection
 [] orm.js pseudocode + import db connection
 [] orm.selectAll() + unit test code
 [] orm.insertOne() + unit test code

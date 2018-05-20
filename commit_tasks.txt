@@ -1,8 +1,8 @@
-[] Build DB schema
-[] Fill out initial data set
-[] Test
-[] database build script
-[] Update README with db installation instructions
+[x] Build DB schema
+[x] Fill out initial data set
+[x] Test
+[x] database build script
+[x] Update README with db installation instructions
 [] connection.js builds connection to db
 [] connection.js exports db connection
 [] orm.js pseudocode + import db connection

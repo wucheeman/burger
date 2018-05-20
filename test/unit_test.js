@@ -16,6 +16,23 @@ describe("Connection tests", function() {
   });
 });
 
+describe("ORM tests", function() {
+  const orm = require("../config/orm.js");
+  it('Read devoured correctly', function() {
+    const result = orm.selectAll(function(res) {
+      assert.strictEqual(res[0].devoured, 1, 'Devoured read correctly');
+    });
+  });
+  it('Read name correctly', function() {
+    const result = orm.selectAll(function(res) {
+      assert.strictEqual(res[1].burger_name, "Bacon Brie Mushroom Burger", 'Name read correctly');
+    });
+  });
+
+});
+
+
+
 // run this test in the project root as:
 //       $ mocha <path from root to file>/<test file name>.js OR
 //       $ npm test - file MUST be named 'test.js' in the test folder

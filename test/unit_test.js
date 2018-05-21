@@ -31,8 +31,13 @@ describe("ORM tests", function() {
     });
   });
   it('Inserted burger correctly', function() {
-    const result = orm.insertOne('Plain Burger', true, function() {
+    const result = orm.insertOne('Plain Burger', false, function() {
       assert.isTrue(result, "Insert succeeded");
+    });
+  });
+  it('Updated burger correctly', function() {
+    const result = orm.updateOne('Plain Burger', function() {
+      assert.isTrue(result, "Update succeeded");
     });
   });
 

@@ -8,8 +8,8 @@
 [x] orm.js import db connection
 [x] orm.selectAll() + unit test code
 [x] orm.insertOne() + unit test code
-[] orm.updateOne() + unit test code
-[] orm.js exports orm object
+[x] orm.updateOne() + unit test code
+[x] orm.js exports orm object
 [] burger.js pseudocode + import orm object
 [] burger calls orm.selectAll() + unit test code
 [] burger calls orm.insertOne() + unit test code

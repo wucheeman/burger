@@ -7,7 +7,7 @@
 [x] connection.js exports db connection
 [x] orm.js import db connection
 [x] orm.selectAll() + unit test code
-[] orm.insertOne() + unit test code
+[x] orm.insertOne() + unit test code
 [] orm.updateOne() + unit test code
 [] orm.js exports orm object
 [] burger.js pseudocode + import orm object

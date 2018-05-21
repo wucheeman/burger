@@ -11,15 +11,20 @@ const orm = {
     let queryString = "SELECT * FROM burgers";
     connection.query(queryString, function(err, result) {
       if (err) throw err;
-      // console.log(result);
-      // console.log(result[0]);
-      // console.log(result[0].devoured); 
-      // TODO: remove all console.log stuff
       cb(result);
     });
   },
-  insertOne: function() {
+  insertOne: function(bName, dState, cb) {
+    // console.log(bName);
 
+    // let queryString = 'INSERT INTO burgers (burger_name) VALUES ("' + bName + '");' ;
+    let queryString = `INSERT INTO burgers (burger_name, devoured) VALUES ("${bName}", ${dState});` ;
+    // console.log(queryString);
+    connection.query(queryString, function(err, result) {
+      if (err) throw err;
+      cb(true);
+      // TODO clean up comments
+    })
   },
   updateOne: function() {
 
@@ -27,5 +32,8 @@ const orm = {
 }
 
 // orm.selectAll();
+// const res = orm.insertOne('Plain Burger', true, function() {
+//   console.log('sent ');
+// });
 
 module.exports = orm;

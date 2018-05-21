@@ -1,6 +1,8 @@
 // @ts-check
 // This turns on type checking in VS Code
 
+// BEFORE TESTING, return the burgerzDB to its initial state by running 'setupDB.sh'
+
 // these are needed only if testing with node
 var mocha = require('mocha');
 var chai = require('chai');
@@ -28,11 +30,17 @@ describe("ORM tests", function() {
       assert.strictEqual(res[1].burger_name, "Bacon Brie Mushroom Burger", 'Name read correctly');
     });
   });
+  it('Inserted burger correctly', function() {
+    const result = orm.insertOne('Plain Burger', true, function() {
+      assert.isTrue(result, "Insert succeeded");
+    });
+  });
 
 });
 
 
 
-// run this test in the project root as:
-//       $ mocha <path from root to file>/<test file name>.js OR
+// run this test in the project root with:
+//       $ mocha <path from root to file>/<test file name>.js
+// OR
 //       $ npm test - file MUST be named 'test.js' in the test folder

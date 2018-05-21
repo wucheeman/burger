@@ -10,8 +10,8 @@
 [x] orm.insertOne() + unit test code
 [x] orm.updateOne() + unit test code
 [x] orm.js exports orm object
-[] burger.js pseudocode + import orm object
-[] burger calls orm.selectAll() + unit test code
+[x] burger.js pseudocode + import orm object
+[x] burger calls orm.selectAll() + unit test code
 [] burger calls orm.insertOne() + unit test code
 [] burger calls orm.updateOne() + unit test code
 [] burger.js exports burger object

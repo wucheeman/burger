@@ -19,6 +19,7 @@ connection.connect(function(err) {
     return;
   }
   console.log("connected as id " + connection.threadId);
+  // connection.end();
 });
 
 // Export connection for our ORM to use.

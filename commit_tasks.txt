@@ -12,9 +12,9 @@
 [x] orm.js exports orm object
 [x] burger.js pseudocode + import orm object
 [x] burger calls orm.selectAll() + unit test code
-[] burger calls orm.insertOne() + unit test code
-[] burger calls orm.updateOne() + unit test code
-[] burger.js exports burger object
+[x] burger calls orm.insertOne() + unit test code
+[x] burger calls orm.updateOne() + unit test code
+[x] burger.js exports burger object
 [] burgers_controller.js` psuedocode + import Express and burger.js`
 [] burgers_controller provides routes for the app
 [] burger_controller.js exports the `router`.

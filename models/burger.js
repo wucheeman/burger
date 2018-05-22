@@ -27,18 +27,26 @@ const burger = {
     });
   },
   update: function(burger, cb) {
-    // updates status of undevoured burger to devoured and returns true
-    // returns false if burger already devourced
-    // throws error if burger does not exist
-    orm.update(burger, function(res) {
+    // updates status of burger to devoured and returns true
+    orm.updateOne(burger, function(res) {
       cb(res);
     });
   }
 };
 
+// Test code
 // burger.all(function (data) {
 //   console.log(data);
 // })
+
+// burger.create('REALLY BIG Plain Burger', function(data) {
+//   console.log(data);
+// });
+
+// burger.update("Bacon Brie Mushroom Burger", function(data) {
+//   console.log(data);
+// });
+
 
 
 module.exports = burger;

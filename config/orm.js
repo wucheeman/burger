@@ -3,9 +3,6 @@
 
 var connection = require("./connection.js");
 
-// The ?? signs are for swapping out table or column names
-// The ? signs are for swapping out other values
-
 const orm = {
   selectAll: function(cb) {
     let queryString = "SELECT * FROM burgers";

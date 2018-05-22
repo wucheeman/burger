@@ -4,6 +4,7 @@
 snippets/
 node_modules/
 target/
+test/unit_test.js
 
 # Executables
 

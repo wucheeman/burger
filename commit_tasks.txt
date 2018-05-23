@@ -26,3 +26,5 @@
 	[] A burger will move to the right side of the page when the user clicks button.
 	[] App store every burger in database, whether devoured or not
 	[] UI tests wherever appropriate
+
+[] Update ORM to use sQL code that is safer from SQL injection - see comments in MYSQL homework

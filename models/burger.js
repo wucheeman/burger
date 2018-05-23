@@ -9,6 +9,7 @@ const burger = {
     // returns all burgers in the database as an array of burger objects
     // TODO (future) convert to forEach()
     orm.selectAll(function(res) {
+      // console.log('in burger.all');
       const burgerArray = [];
       for (var i = 0; i < res.length; i++) {
         let daBurger = {};
@@ -17,12 +18,16 @@ const burger = {
         daBurger.devoured = res[i].devoured;
         burgerArray.push(daBurger);
       }
+      // console.log(burgerArray);
       cb(burgerArray);
     });
   },
   create: function(newBurger, cb) {
     // inserts new burger into DB with state = not devoured and returns true
+   
+    console.log('burger is creating a ' + newBurger);
     orm.insertOne(newBurger, false, function(res) {
+      console.log(res);
       cb(res);
     });
   },

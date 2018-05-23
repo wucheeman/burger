@@ -13,16 +13,22 @@ const orm = {
   },
   insertOne: function(bName, dState, cb) {
     let queryString = `INSERT INTO burgers (burger_name, devoured) VALUES ("${bName}", ${dState});` ;
+    
     connection.query(queryString, function(err, result) {
+      //console.log('in insertOne, before error');
       if (err) throw err;
-      cb(true);
+      //console.log('in insertOne, after error');
+      //console.log(result);
+      cb(result);
     })
   },
   updateOne: function(bName, cb) {
     let queryString = `UPDATE burgers SET devoured=true WHERE burger_name="${bName}";` ;
     connection.query(queryString, function(err, result) {
       if (err) throw err;
-      cb(true);
+      // console.log('in UpdateOne, after error');
+      // console.log(result);
+      cb(result);
     });
   }
 }

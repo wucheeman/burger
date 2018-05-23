@@ -19,8 +19,7 @@
 [x] burgers_controller provides get route for the app
 [x] burger_controller.js exports the `router`.
 [x] burgers_controller provides post route for the app
-[] burgers_controller provides put route for the app
-[] Update README with node module installation instructions
+[x] burgers_controller provides put route for the app
 [] *** handlebars commit tasks are tbd ***
 	[] Enables user to submits a burger's name
 	[] After entry, displays the burger on the left side of the page -- the waiting area
@@ -28,5 +27,9 @@
 	[] A burger will move to the right side of the page when the user clicks button.
 	[] App store every burger in database, whether devoured or not
 	[] UI tests wherever appropriate
+[] Update README with node module installation instructions
 
+
+Future
+======
 [] Update ORM to use sQL code that is safer from SQL injection - see comments in MYSQL homework

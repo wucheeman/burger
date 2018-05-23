@@ -30,8 +30,7 @@ router.post("/api/burgers", function(req, res) {
 });
 
 router.put("/api/burgers/:name", function(req, res) {
-  const burger_name = req.params.burger_name;
-  console.log(burger_name);
+  //console.log(req.body.burger_name);
   burger.update (req.body.burger_name, function (result) {
     if (result.changedRows == 0) {
       // If no rows were changed, then the ID must not exist, so 404

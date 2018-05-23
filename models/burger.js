@@ -25,9 +25,9 @@ const burger = {
   create: function(newBurger, cb) {
     // inserts new burger into DB with state = not devoured and returns true
    
-    console.log('burger is creating a ' + newBurger);
+    // console.log('burger is creating a ' + newBurger);
     orm.insertOne(newBurger, false, function(res) {
-      console.log(res);
+      // console.log(res);
       cb(res);
     });
   },

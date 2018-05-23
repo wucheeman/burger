@@ -10,12 +10,11 @@ const router = express.Router();
 router.get("/", function(req, res) {
   burger.all(function(data) {
     var burgerObject = {
+      // must use 'burgers in the 'each' in index.handlebars
       burgers: data
     };
     console.log(burgerObject);
-    // TODO: uncomment res.render and delete res.send
-    // res.render("index", burgerObject);
-    res.send(burgerObject);
+    res.render("index", burgerObject);
   });
 });
 

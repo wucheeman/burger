@@ -3,6 +3,10 @@
 
 var connection = require("./connection.js");
 
+
+// TODO (future): convert direct SQL so that it uses "?" instead, per Boot Camp examples.
+// Protects against SQL injection!
+
 const orm = {
   selectAll: function(cb) {
     let queryString = "SELECT * FROM burgers";

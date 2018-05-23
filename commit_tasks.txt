@@ -21,6 +21,8 @@
 [x] burgers_controller provides post route for the app
 [x] burgers_controller provides put route for the app
 [x] front end now displays contents of burgerzDB
+[x] front end enables entry of a new burger to database
+[] front end enables devouring a burger
 [] *** handlebars commit tasks are tbd ***
 	[] Enables user to submits a burger's name
 	[] After entry, displays the burger on the left side of the page -- the waiting area

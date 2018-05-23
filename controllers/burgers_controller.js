@@ -1,4 +1,5 @@
-// @ts-check
+// @ts-nocheck
+
 // This turns on type checking in VS Code
 
 const express = require("express");
@@ -18,11 +19,16 @@ router.get("/", function(req, res) {
   });
 });
 
-router.post("/api/cats", function(req, res) {
-
+router.post("/api/burgers", function(req, res) {
+  burger.create(
+    [req.body.burger_name], 
+    function(result) {
+      // Send back the ID of the new burger
+      res.json({ id: result.insertId });
+  });
 });
 
-router.put("/api/cats/:id", function(req, res) {
+router.put("/api/burgers/:id", function(req, res) {
 
 });
 

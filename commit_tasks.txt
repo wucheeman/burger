@@ -18,8 +18,8 @@
 [x] burgers_controller.js` psuedocode + import Express and burger.js`
 [x] burgers_controller provides get route for the app
 [x] burger_controller.js exports the `router`.
-[x] burgers_controller provides get route for the app
-[x] burgers_controller provides get route for the app
+[x] burgers_controller provides post route for the app
+[] burgers_controller provides put route for the app
 [] Update README with node module installation instructions
 [] *** handlebars commit tasks are tbd ***
 	[] Enables user to submits a burger's name

@@ -15,9 +15,11 @@
 [x] burger calls orm.insertOne() + unit test code
 [x] burger calls orm.updateOne() + unit test code
 [x] burger.js exports burger object
-[] burgers_controller.js` psuedocode + import Express and burger.js`
-[] burgers_controller provides routes for the app
-[] burger_controller.js exports the `router`.
+[x] burgers_controller.js` psuedocode + import Express and burger.js`
+[x] burgers_controller provides get route for the app
+[x] burger_controller.js exports the `router`.
+[x] burgers_controller provides get route for the app
+[x] burgers_controller provides get route for the app
 [] Update README with node module installation instructions
 [] *** handlebars commit tasks are tbd ***
 	[] Enables user to submits a burger's name

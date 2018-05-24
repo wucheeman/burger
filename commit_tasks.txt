@@ -22,7 +22,7 @@
 [x] burgers_controller provides put route for the app
 [x] front end now displays contents of burgerzDB
 [x] front end enables entry of a new burger to database
-[] front end enables entry of a burger to be devoured and updates DB state
+[x] front end enables entry of a burger to be devoured and updates DB state
 [] plan out html/css/js/jquery for front end that meets requirements
 		() has waiting area to left and devoured area to right
 		() undevoured burgers are in waiting area

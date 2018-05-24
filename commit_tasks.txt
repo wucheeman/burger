@@ -22,14 +22,15 @@
 [x] burgers_controller provides put route for the app
 [x] front end now displays contents of burgerzDB
 [x] front end enables entry of a new burger to database
-[] front end enables devouring a burger
-[] *** handlebars commit tasks are tbd ***
-	[] Enables user to submits a burger's name
-	[] After entry, displays the burger on the left side of the page -- the waiting area
-	[] Each burger in the waiting area has a `Devour it!` button.
-	[] A burger will move to the right side of the page when the user clicks button.
-	[] App store every burger in database, whether devoured or not
-	[] UI tests wherever appropriate
+[] front end enables entry of a burger to be devoured and updates DB state
+[] plan out html/css/js/jquery for front end that meets requirements
+		() has waiting area to left and devoured area to right
+		() undevoured burgers are in waiting area
+		() new burgers go into the waiting area
+		() each burger in the waiting area has a `Devour it!` button.
+		() A burger will move to the right side of the page when the user clicks button.
+
+[] UI tests wherever appropriate
 [] Update README with node module installation instructions
 
 

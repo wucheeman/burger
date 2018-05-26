@@ -76,8 +76,8 @@ Functional Requirements
 [] After entry, displays the burger on the left side of the page -- the waiting area
 [] Each burger in the waiting area has a `Devour it!` button.
 [] A burger will move to the right side of the page when the user clicks button.
-{} App store every burger in database, whether devoured or not
-[] ADD requirements from video, if any
+[] Each burger has a number representing order of entry as well as a name.
+{} App stores every burger and state (whether devoured or not) in database.
 
 
 Bonus

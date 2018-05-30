@@ -10,16 +10,20 @@
 <div class="row text-light">
   <div class="col-sm-1"></div>
   <div class="col-sm-5 pt-3 pb-3">
-    {{!-- TODO update to work with both columns --}}
+    <h5>Burgers Up!</h5>
     <ul>
       {{#each burgers}}
-    {{!-- consider using unless block! --}}
-          {{> burger-block }}
+          {{> burger-block_Undevoured }}
       {{/each}}
     </ul>
   </div>
   <div class="col-sm-5 pt-3 pb-3">
-    <h4>Devoured burgers go here</h4>
+    <h5>Burgers Devoured!</h5>
+    <ul>
+      {{#each burgers}}
+        {{> burger-block_Devoured }}
+      {{/each}}
+    </ul>
   </div>
   <div class="col-sm-1"></div>
 </div>

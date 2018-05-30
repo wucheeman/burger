@@ -24,11 +24,11 @@
 [x] front end enables entry of a new burger to database
 [x] front end enables entry of a burger to be devoured and updates DB state
 [x] front end has waiting area to left and devoured area to right
-[] front end: undevoured burgers are in waiting area
-[] front end: new burgers go into the waiting area
-[] front end: each burger in the waiting area has a `Devour it!` button.
+[x] front end: undevoured burgers are in waiting area
+[x] front end: new burgers go into the waiting area
+[x] front end: each burger in the waiting area has a `Devour it!` button.
 [] front end: each burger has a number as well as a name; number represents order of entry
-[] front end: A burger will move to the right side of the page when the user clicks button.
+[x] front end: A burger will move to the right side of the page when the user clicks button.
 [] UI tests wherever appropriate
 [] Update README with node module installation instructions
 

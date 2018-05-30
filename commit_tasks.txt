@@ -30,6 +30,7 @@
 [] front end: each burger has a number as well as a name; number represents order of entry
 [x] front end: A burger will move to the right side of the page when the user clicks button.
 [] UI tests wherever appropriate
+[] Bug fix: prevent empty submission of a burger from creating a new entry in DB
 [] Update README with node module installation instructions
 
 

@@ -2,21 +2,17 @@
 
 <ul>
   {{#each burgers}}
-    <li>
-      <p>Name: {{burger_name}}</p>
-      <p>Devoured: {{devoured}}</p>
-      {{!-- These do not work yet --}}
-      <form class="devour">
-        <button type="submit">Devour It!</button>
-      </form>
-  </div>
-    </li>
+    {{!-- {{#unless sleepy}} --}}
+    {{!-- LOOK BACK AT CATS TO SEE HOW I CHANGED THIS --}}
+      {{> burger-block sleep=true}}
+    {{!-- {{/unless}} --}}
   {{/each}}
 </ul>
 
 <h2>Add a Burger!</h2>
 <form class="create-form">
   <div class="form-group">
+    {{!-- TODO: is this better named 'burger_name'? --}}
     <label for="nb">Burger Name:</label>
     <input type="text" id="nb" name="name">
   </div>
@@ -25,13 +21,3 @@
 </form>
   <br>
   <br>
-<h2>Devour A Burger!</h2>
-{{!-- This is for test purposes --}}
-<form class="devour-form">
-  <div class="form-group">
-    <label for="bte">Burger To Eat:</label><br>
-    <input type="text" id="bte" name="name">
-  </div>
-    <br>
-   <button type="submit">Devour!</button>
-</form>

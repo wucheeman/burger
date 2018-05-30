@@ -23,7 +23,7 @@
 [x] front end now displays contents of burgerzDB
 [x] front end enables entry of a new burger to database
 [x] front end enables entry of a burger to be devoured and updates DB state
-[] front end has waiting area to left and devoured area to right
+[x] front end has waiting area to left and devoured area to right
 [] front end: undevoured burgers are in waiting area
 [] front end: new burgers go into the waiting area
 [] front end: each burger in the waiting area has a `Devour it!` button.

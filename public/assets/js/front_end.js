@@ -1,20 +1,24 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
   
-  $(".devour-form").on("submit", function(event) {
+  $(".devour").on("click", function(event) {
+    // TODO delete?
+    // $(".devour").on("submit", function(event) {
     event.preventDefault();
-    // var burger_name = $(this).data("burger_name");
-    var burgerToEat = {
-      burger_name: $("#bte").val().trim(),
-    };
-    console.log(burgerToEat);
+    console.log('got here');
+    var burgerID = $(this).data("id");
+    // TODO: delete?
+    // var burgerToEat = {
+    //   burger_name: $("#bte").val().trim(),
+    // };
+    console.log(burgerID);
     // Send the PUT request.
-    $.ajax("/api/burgers/devour", {
+    $.ajax("/api/burgers/" + burgerID, {
       type: "PUT",
-      data: burgerToEat
+      data: burgerID
     }).then(
       function() {
-        console.log("devoured", burgerToEat);
+        console.log("devoured burger with ID: ", burgerID);
         // Reload the page to get the updated list
         location.reload();
       }

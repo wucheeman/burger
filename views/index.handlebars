@@ -1,21 +1,45 @@
-<h1>Eat-Da-Burger!</h1>
+<div class="container"></div>
 
-<ul>
-  {{#each burgers}}
-{{!-- consider using unless block! --}}
-      {{> burger-block }}
-  {{/each}}
-</ul>
-
-<h2>Add a Burger!</h2>
-<form class="create-form">
-  <div class="form-group">
-    {{!-- TODO: is this better named 'burger_name'? --}}
-    <label for="nb">Burger Name:</label>
-    <input type="text" id="nb" name="name">
+<div class="row">
+  <div class="col-sm-12 text-center text-light">
+    <h1>Eat-Da-Burger!</h1>
   </div>
-  <br>
-   <button type="submit">Add Burger</button>
-</form>
-  <br>
-  <br>
+</div>
+
+
+<div class="row text-light">
+  <div class="col-sm-1"></div>
+  <div class="col-sm-5 pt-3 pb-3">
+    {{!-- TODO update to work with both columns --}}
+    <ul>
+      {{#each burgers}}
+    {{!-- consider using unless block! --}}
+          {{> burger-block }}
+      {{/each}}
+    </ul>
+  </div>
+  <div class="col-sm-5 pt-3 pb-3">
+    <h4>Devoured burgers go here</h4>
+  </div>
+  <div class="col-sm-1"></div>
+</div>
+
+
+<div class="row">
+  <div class="col-sm-1">
+  </div>
+  <div class="col-sm-10 pt-3 text-center text-light">
+    <h2>Add a Burger!</h2>
+    <form class="create-form">
+      <div class="form-group">
+        {{!-- TODO: is this better named 'burger_name'? --}}
+        <label for="nb">Burger Name:</label>
+        <input type="text" id="nb" name="name">
+      </div>
+      <br>
+      <button type="submit">Add Da Burger!</button>
+    </form>
+  </div>
+  <div class="col-sm-1">
+  </div>
+</div>

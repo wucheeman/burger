@@ -28,7 +28,6 @@ const burger = {
   },
   update: function(burgerID, cb) {
     // updates status of burger to devoured and returns true
-    console.log('in burger.update; burgerID = ' + burgerID);
     orm.updateOne(burgerID, function(res) {
       cb(res);
     });

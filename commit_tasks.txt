@@ -29,7 +29,7 @@
 [x] front end: each burger in the waiting area has a `Devour it!` button.
 [x] front end: each burger has a number as well as a name; number represents order of entry
 [x] front end: A burger will move to the right side of the page when the user clicks button.
-[] Bug fix: front end should reject burger names over 25 characters in length
+[x] Bug fix: front end should reject burger names over 25 characters in length
 [] Bug fix: prevent empty submission of a burger from creating a new entry in DB
 [] Back end prevents burger names over 25 characters in length
 [] Back end prevents addition of a burger with no name
@@ -43,3 +43,4 @@ Future
 ======
 [] Update ORM to use sQL code that is safer from SQL injection - see comments in MYSQL homework
 [] Enhance unit tests to use promises and validate test results
+[] Page should reject bad input with on-page text, not alerts

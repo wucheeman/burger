@@ -30,6 +30,11 @@ $(function() {
     var newBurger = {
       burger_name: $("#nb").val().trim(),
     };
+    // console.log('length is ' + newBurger.burger_name.length);
+    if (newBurger.burger_name.length > 25) {
+      alert('Burger names must not be longer than 25 characters');
+      return;
+    } 
     // Send the POST request.
     $.ajax("/api/burgers", {
       type: "POST",

@@ -19,6 +19,11 @@ router.get("/", function(req, res) {
 });
 
 router.post("/api/burgers", function(req, res) {
+  const burgerName = req.body.burger_name.trim();
+  console.log('burgerName length is' + burgerName.length);
+  if (burgerName.length > 25 || burgerName.length < 1 ) {
+    return res.status(400).end(); 
+  }
   burger.create(
     // TODO, does this need to be an array?
     [req.body.burger_name], 

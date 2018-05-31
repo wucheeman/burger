@@ -93,6 +93,7 @@ Functionality
 [] Front end trims excess white space from new burger name
 [] Back end prevents burger names over 25 characters in length
 [] Back end prevents addition of a burger with no name
+[] Back end trims excess white space from new burger name
 
 Display
 =======

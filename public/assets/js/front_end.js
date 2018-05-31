@@ -34,7 +34,10 @@ $(function() {
     if (newBurger.burger_name.length > 25) {
       alert('Burger names must not be longer than 25 characters');
       return;
-    } 
+    } else if (newBurger.burger_name.length === 0) {
+      alert('Burger names must have at least one character');
+      return;
+    }
     // Send the POST request.
     $.ajax("/api/burgers", {
       type: "POST",

@@ -76,13 +76,13 @@ Functional Requirements
 [] After entry, displays the burger on the left side of the page -- the waiting area
 [] Each burger in the waiting area has a `Devour it!` button.
 [] A burger will move to the right side of the page when the user clicks button.
-[] Each burger has a number representing order of entry as well as a name.
+[] Each burger in the waiting area has a number representing order of entry as well as a name.
 {} App stores every burger and state (whether devoured or not) in database.
 
 
 Bonus
 =====
-Fill in from requirements.
+None.
 
 Functionality
 =============
@@ -94,6 +94,7 @@ Functionality
 [] Back end prevents burger names over 25 characters in length
 [] Back end prevents addition of a burger with no name
 [] Back end trims excess white space from new burger name
+[] All unit tests pass
 
 Display
 =======
@@ -108,8 +109,6 @@ Installation
 
 Cleanup
 =======
-[] HTML validates
-[] CSS validates
 [] JS delinted
 
 Heroku

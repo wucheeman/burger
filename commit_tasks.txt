@@ -42,3 +42,4 @@
 Future
 ======
 [] Update ORM to use sQL code that is safer from SQL injection - see comments in MYSQL homework
+[] Enhance unit tests to use promises and validate test results

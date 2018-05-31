@@ -27,7 +27,7 @@ const orm = {
     })
   },
   updateOne: function(bID, cb) {
-    console.log('in orm.updateOne; bID = ' + bID);
+    // console.log('in orm.updateOne; bID = ' + bID);
     let queryString = `UPDATE burgers SET devoured=true WHERE id="${bID}";` ;
     connection.query(queryString, function(err, result) {
       if (err) throw err;

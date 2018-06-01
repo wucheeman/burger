@@ -34,7 +34,7 @@
 [x] Back end prevents burger names over 25 characters in length
 [x] Back end prevents addition of a burger with no name
 [x] Test results
-[] Clean up of code prior to upload to Heroku[] Test results running on Heroku
+[] Test results running on Heroku
 [] Update README with node module installation instructions
 
 

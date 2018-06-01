@@ -102,10 +102,10 @@ Display
 
 Installation
 ============
-[] Package installs correctly in a new directory
+[p] Package installs correctly in a new directory - a
 	() node packages
 	() database
-[] All dependencies are listed in package.json
+[s] All dependencies are listed in package.json
 
 Cleanup
 =======

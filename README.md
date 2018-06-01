@@ -1,7 +1,7 @@
 # Eat-da-Burger!
 
 ## What the project does
-This is an implementation of the Eat-da-Burger app, done as homework for the February 2018 UNC Coding Boot Camp. Comments on the app and code will be added here when it is complete.
+This is an implementation of the Eat-da-Burger app, done as homework for the February 2018 UNC Coding Boot Camp.
 
 ## How to get started with the app
 You can use the application online at Heroku at https://arcane-bastion-71946.herokuapp.com/ . You will probably have to wait a little while once you reach that URL until Heroku spins up a virtual machine to start hosting the project.
@@ -26,7 +26,7 @@ Start the server with:
 
     $ node server.js
 
-Open a browser and in the address line, type:
+Open a browser and in the address line, type:git 
 
     http://localhost:8080/
 

@@ -37,7 +37,6 @@
 [x] Test results running on Heroku
 [] Update README with node module installation instructions
 
-
 Future
 ======
 [] Update ORM to use sQL code that is safer from SQL injection - see comments in MYSQL homework

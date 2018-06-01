@@ -33,9 +33,8 @@
 [x] Bug fix: prevent empty submission of a burger from creating a new entry in DB
 [x] Back end prevents burger names over 25 characters in length
 [x] Back end prevents addition of a burger with no name
-[] Test results
-[] Clean up of code prior to upload to Heroku
-[] Test results running on Heroku
+[x] Test results
+[] Clean up of code prior to upload to Heroku[] Test results running on Heroku
 [] Update README with node module installation instructions
 
 

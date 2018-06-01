@@ -6,6 +6,8 @@ node_modules/
 target/
 environment.txt
 # test/unit_test.js
+public/assets/img/small_burger.png
+public/assets/img/very_small_burger.png
 
 # Executables
 
